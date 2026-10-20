@@ -1,27 +1,27 @@
 
-// const guessInput = document.getElementById('guessInput');
-// const guessBtn = document.getElementById('guessBtn');
-// const message = document.getElementById('message');
-// const attemptsText = document.getElementById('attempts');
-// const resetBtn = document.getElementById('resetBtn');
+const guessInput = document.getElementById('guessInput');
+const guessBtn = document.getElementById('guessBtn');
+const message = document.getElementById('message');
+const attemptsText = document.getElementById('attempts');
+const resetBtn = document.getElementById('resetBtn');
 
-// let randomNumber;
-// let attempts;
+let randomNumber;
+let attempts;
 
 
-// // Start new game
-// function startGame() {
-//     randomNumber = Math.floor(Math.random() * 10) + 1;
+// Start new game
+function startGame() {
+    randomNumber = Math.floor(Math.random() * 10) + 1;
 
-//     attempts = 0;
+    attempts = 0;
 
-//     message.textContent = '';
-//     attemptsText.textContent = '0';
+    message.textContent = '';
+    attemptsText.textContent = '0';
 
-//     guessInput.value = '';
-//     guessInput.disabled = false;
-//     guessBtn.disabled = false;
-// }
+    guessInput.value = '';
+    guessInput.disabled = false;
+    guessBtn.disabled = false;
+}
 
 
 // Guess button
