@@ -47,25 +47,25 @@ guessBtn.addEventListener('click', () => {
     attemptsText.textContent = attempts;
 
     // Check the guess
-//     if (userGuess === randomNumber) {
+    if (userGuess === randomNumber) {
 
-//         message.textContent =
-//             `Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`;
+        message.textContent =
+            `Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`;
 
-//         guessInput.disabled = true;
-//         guessBtn.disabled = true;
+        guessInput.disabled = true;
+        guessBtn.disabled = true;
 
-//     } else if (userGuess < randomNumber) {
+    } else if (userGuess < randomNumber) {
 
-//         message.textContent = 'Too low! Try a bigger number.';
+        message.textContent = 'Too low! Try a bigger number.';
 
-//     } else {
+    } else {
 
-//         message.textContent = 'Too high! Try a smaller number.';
+        message.textContent = 'Too high! Try a smaller number.';
 
-//     }
+    }
 
-// });
+});
 
 
 // Reset game
