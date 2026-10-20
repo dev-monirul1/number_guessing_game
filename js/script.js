@@ -69,8 +69,8 @@ guessBtn.addEventListener('click', () => {
 
 
 // Reset game
-// resetBtn.addEventListener('click', startGame);
+resetBtn.addEventListener('click', startGame);
 
 
 // Start game when page loads
-// startGame();
+startGame();
