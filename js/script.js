@@ -25,26 +25,26 @@ function startGame() {
 
 
 // Guess button
-// guessBtn.addEventListener('click', () => {
+guessBtn.addEventListener('click', () => {
 
-//     const userGuess = Number(guessInput.value);
+    const userGuess = Number(guessInput.value);
 
-//     // Check valid number
-//     if (
-//         guessInput.value === '' ||
-//         userGuess < 1 ||
-//         userGuess > 10 ||
-//         !Number.isInteger(userGuess)
-//     ) {
-//         message.textContent =
-//             'Please enter a valid number between 1 and 10.';
-//         return;
-//     }
+    // Check valid number
+    if (
+        guessInput.value === '' ||
+        userGuess < 1 ||
+        userGuess > 10 ||
+        !Number.isInteger(userGuess)
+    ) {
+        message.textContent =
+            'Please enter a valid number between 1 and 10.';
+        return;
+    }
 
-//     // Increase attempts
-//     attempts++;
+    // Increase attempts
+    attempts++;
 
-//     attemptsText.textContent = attempts;
+    attemptsText.textContent = attempts;
 
     // Check the guess
 //     if (userGuess === randomNumber) {
